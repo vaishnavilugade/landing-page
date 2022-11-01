@@ -1,0 +1,434 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.container {
+    height: 100vh;
+    width: 100%;
+    background-image: url(https://www.pcclean.io/wp-content/gallery/water-lily-hd-wallpapers/523025.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-right: 3%;
+    padding-left: 5%;
+    box-sizing: border-box;
+    position: relative;
+}
+.header {
+    width: 100%;
+    height: 15vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+nav {
+    flex: 1;
+    padding-left: 150px;
+}
+nav ul1 va{
+    display: inline-block;
+    list-style: none;
+    margin: 0 50px;
+}
+nav ul1 va a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 1000;
+}
+#btn1 {
+    text-transform: uppercase;
+    background: linear-gradient(to bottom,  #48789b 100%);
+    border-radius: 30px;
+    border: 1px solid ;
+    cursor: pointer;
+    color: red;
+    font-family: 'Poppins';
+    font-size: 17px;
+    font-weight: 900;
+    padding: 12px 20px;
+    margin: 10px;
+    text-decoration: none;
+    box-shadow: 1px 4px 12px rgba(94,28,68,.15);
+    text-shadow: 0px 1px 0px #528ecc;
+}
+#btn2 {
+    text-transform: uppercase;
+    background: linear-gradient(to bottom, #fff 100%);
+    border-radius: 30px;
+    border: 1px solid;
+    cursor: pointer;
+    color: red;
+    font-family: 'Poppins';
+    font-size: 17px;
+    font-weight: 900;
+    padding: 12px 20px;
+    margin: 10px;
+    text-decoration: none;
+    box-shadow: 1px 4px 12px rgba(94,28,68,.15);
+    text-shadow: 0px 1px 0px #cbcbcb;
+}
+.btn:hover {
+    box-shadow: 3px 8px 22px rgba(94,28,68,.15);
+    transform: scale(1.1);
+    transition: .2s ease-in-out;
+}
+.content {
+    position: relative;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+.content .text {
+    position: relative;
+    max-width: 600px;
+}
+.content .text h1 {
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-top: 80px;
+    line-height: 1.5em;
+    letter-spacing: .1em;
+    font-size: 40px;
+    color: #fff;
+}
+.content .text h1 span {
+    font-size: 50px;
+}
+.content .text p {
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: .1em;
+    margin-top: 40px;
+    color: white;
+ }
+
+.flower {
+    display: flex;
+    height: 100%;
+    position: absolute;
+    width: 600px;
+    margin-top: 80px;
+    padding-left: 440px;
+    justify-content: flex-end;
+}
+#btn3 {
+    text-transform: uppercase;
+    background: linear-gradient(to bottom, #fff 100%);
+    border-radius: 30px;
+    border: 1px solid;
+    cursor: pointer;
+    color: red;
+    font-family: 'Poppins';
+    font-size: 17px;
+    font-weight: 900;
+    padding: 12px 20px;
+    margin: 10px;
+    text-decoration: none;
+    box-shadow: 1px 4px 12px rgba(94,28,68,.15);
+    text-shadow: 0px 1px 0px #cbcbcb;
+}
+
+.flow{
+    width: 100%;
+    height: 100vh;
+    padding: 20px;
+    background-image: url(https://www.elegantthemes.com/blog/wp-content/uploads/2013/09/bg-11-full.jpg);
+    background-size: cover;
+}
+.homepage{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: 99;
+    box-shadow: 5px 5px 20px black;
+    border-radius: 20px 1px 100px 2px;
+}
+.homepage::before{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: -1000;
+    content: "";
+    width: 100%;
+    background: url(https://www.elegantthemes.com/blog/wp-content/uploads/2013/09/bg-11-full.jpg);
+    background-size: 100% 100%;
+    filter: contrast(80%);
+}
+.blacksheed{
+    position: absolute;
+    right: 0;
+    width: 40%;
+    border-radius: 20px 1px 100px 2px;
+    height: 100%;
+    background-color: rgba(241,240 ,240 ,.3 );
+}
+.name{
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    font-size: 20px;
+    font-style: oblique;
+}
+.name h1{
+    color: darkgreen;
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+ul{
+    list-style: one;
+    position: absolute;
+    bottom: 10px;
+    left: 10%;
+}
+ul .li{
+    display: inline-block;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid rgb(141,87,21);
+    cursor: pointer;
+}
+ul .li:hover{
+    background-color: rgba(219,163,219,.4);
+}
+ul .li:hover a{
+    color: orange;
+}
+ul .li a{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+.sp{
+    position: relative;
+}
+.sp::before{
+    position: absolute;
+    bottom: 10px;
+    border: 1px solid rgb(141,87,21);
+    content: "flower";
+    font-size: 20px;
+    color: darkred;
+    border-radius: 20px;
+    cursor: pointer;
+    padding: 10px;
+    z-index: 99;
+}
+.sinin{
+    position: relative;
+    top: 60%;
+    left: 40%;
+    padding: 10px;
+    border: 2px solid black;
+    background-color: rgba(15,15,15,.5);
+}
+.sinin a{
+    font-size: 30px;
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+}
+.fram{
+    position: absolute;
+    top: 0px;
+    row-gap: 0px;
+    width: 70%;
+    border-radius: 20px 1px 100px 2px;
+    background: url(https://www.elegantthemes.com/blog/wp-content/uploads/2013/09/bg-11-full.jpg);
+    background-size: cover;
+    height: 100%;
+    opacity: 0;
+    padding: 40px;
+    transition: all .3s;
+    display: flex;
+    justify-content: center;
+    overflow: scroll;
+}
+.fram::-webkit-scrollbar{
+    display: none;
+}
+.lable{
+    position: fixed;
+    z-index: 9999999;
+}
+#so:checked~.fram{
+    opacity: 1;
+    transition: all .3s;
+}
+#so{
+    display: none;
+}
+.child{
+    width: 290px;
+    height: 200px;
+    border: 2px solid black;
+    overflow: hidden;
+    margin: 0px;
+    display: inline-block;
+}
+.child img{
+    width: 290px;
+    height: 200px;
+    transition: all .9s;
+    cursor: pointer;
+}
+.child:hover img{
+    transform: :scale(1.4);
+    transition:all .9s;
+}
+
+
+
+body{
+  margin: 0;
+  padding: 0;
+  background-image: url(https://www.elegantthemes.com/blog/wp-content/uploads/2013/09/bg-11-full.jpg);
+  height: 100px;
+  background-size: cover;
+  background-position: center;
+}
+ul{
+  float: right;
+  list-style-type: none;
+  margin-top: 25px;
+}
+ul li{
+  display: inline-block;
+
+}
+ul li a{
+  text-decoration:none;
+  color: black;
+  padding: 2px 95px;
+  border: 2px solid transparent;
+  transition: 0.6s ease;
+  font-size: 20px;
+
+}
+ul li a:hover{
+  background-color:black;
+  color: white
+}
+.loginbox{
+  width: 320px;
+  height: 420px;
+  background: #000;
+  color: black;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  box-sizing: border-box;
+  padding: 70px 30px;
+}
+.chrome{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position:absolute;
+  top: -50px;
+  left: calc(50% - 50px);
+}
+h1{
+  margin: 0;
+  padding: 0 0 30px;
+  text-align:center;
+  font-size: 30px;
+  color: white;
+
+}
+.loginbox p{
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+}
+.loginbox p{
+  color: white;
+
+}
+.loginbox input{
+  width: 100%;
+  margin-bottom: 20px;
+}
+.loginbox input[type="text"],input[type="password"]
+{
+  border: none;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  outline: none;
+  height: 30px;
+  color: #fff;
+  font-size: 16px;
+}
+.loginbox input[type="Submit"]
+{
+  border: none;
+  outline: none;
+  height: 40px;
+  background: #fb2525;
+  color: white;
+  font-size: 18px;
+  border-radius: 20px;
+
+}
+.loginbox input[type="Submit"]:hover
+{
+  cursor: pointer;
+
+  background: red;
+  color: black;
+}
+.loginbox a{
+  text-decoration: none;
+  font-size: 12px;
+  line-height: 20px;
+  color: darkgrey;
+}
+.loginbox a:hover
+{
+  color: #ffc107;
+
+}
+nav {
+    flex: 1;
+    padding-left: 150px;
+}
+#btn1 {
+    text-transform: uppercase;
+    background: linear-gradient(to bottom,  #48789b 100%);
+    border-radius: 30px;
+    border: 1px solid ;
+    cursor: pointer;
+    color: red;
+    font-family: 'Poppins';
+    font-size: 17px;
+    font-weight: 900;
+    padding: 12px 20px;
+    margin: 10px;
+    text-decoration: none;
+    box-shadow: 1px 4px 12px rgba(94,28,68,.15);
+    text-shadow: 0px 1px 0px #528ecc;
+}
+#btn2 {
+    text-transform: uppercase;
+    background: linear-gradient(to bottom, #fff 100%);
+    border-radius: 30px;
+    border: 1px solid;
+    cursor: pointer;
+    color: red;
+    font-family: 'Poppins';
+    font-size: 17px;
+    font-weight: 900;
+    padding: 12px 20px;
+    margin: 10px;
+    text-decoration: none;
+    box-shadow: 1px 4px 12px rgba(94,28,68,.15);
+    text-shadow: 0px 1px 0px #cbcbcb;
+}
